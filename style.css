@@ -1,0 +1,103 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(243, 243, 242);
+    }
+    nav{
+        width: 90%;
+        height: 10%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .nav1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font : 700 18px "montserrat"
+    }
+    .nav1 > img{
+        margin: 0 18px;
+    }
+    .nav2 {
+        display: flex;
+        align-items: center;
+        font : 400 15px "montserrat"
+      }
+      .nav2 > h4{
+        margin: 0 10px;
+      }
+.boxx{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.box-l{
+   width: 80%;
+   height: 100%; 
+}
+.box-l > input {
+    width: 100%;
+    height: 15%;
+    /* background-color: pink; */
+    border-radius: 5px;
+    font: 500 300% "montserrat";
+    outline: none;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.m{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 6%;
+    font: 400 20px "montserrat";
+    color: rgb(93, 93, 93);
+}
+
+.box-r{
+    width: 20%;
+    height: 100%; 
+    font: 500 18px "montserrat";
+}
+.box-r > p{
+    margin-left: 10px;
+}
+.a ,.b , .c , .d ,.e ,.f {
+    display: flex;
+}
+
+button{
+    width: 310px;
+    height: 85px;
+    font: 600 20px "montserrat";
+    margin: 2px;
+    border: none;
+    box-shadow: 0 0 2px black;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(74, 74, 121);
+}
+
+.white{
+    background-color:  rgb(255, 255, 255);
+}
+.orange{
+    background-color:rgb(182, 68, 14);
+}
